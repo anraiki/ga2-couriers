@@ -1,0 +1,4846 @@
+[
+  {
+    "id": "duskie",
+    "internal_id": "600201",
+    "name": "Duskie",
+    "rarity": 2,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "attack_damage",
+            "value": 100,
+            "type": "flat"
+          },
+          {
+            "stat": "health",
+            "value": 200,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "buff_id": "privilege_103",
+        "effect": {
+          "name": "Start with 1 Tier 3 Treasure immediately",
+          "type": "PRIVILEGE_ITEM",
+          "is_stackable": true,
+          "properties": {
+            "item_chest_3": 1,
+            "round": 1
+          }
+        }
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 1,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 1,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "service_rarity_lucky",
+            "value": 50,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "LOW-TIER SWAP",
+      "description": "Swap equipment or ability tomes with a rarity lower than 5 to another item of the same rarity. Cooldown: [Item Rarity * 60] sec.",
+      "icon": "action_lock_green_cycle",
+      "ability_type": "point",
+      "properties": {},
+      "cooldown": 60,
+      "cooldown_formula": "item_rarity * cooldown"
+    },
+    "obtain_method": "Initial default courier and drops from the Common Courier Treasure Pool",
+    "icon": "duskie.png",
+    "description": "Courier",
+    "model": "models/items/courier/duskie/duskie.vmdl"
+  },
+  {
+    "id": "dudu-bird",
+    "internal_id": "600301",
+    "name": "Dudu Bird",
+    "rarity": 4,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 1,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "buff_id": "privilege_149",
+        "effect": {
+          "name": "Grants 1 Tier 4 Chest per Main Story Chapter cleared.",
+          "type": "PRIVILEGE_SCRIPT",
+          "is_stackable": false,
+          "properties": {}
+        }
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "service_rarity_lucky",
+            "value": 50,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "LOOTING",
+      "description": "Send the Dudu Bird to search for treasure. Rewards upgrade based on your current Main Story Chapter progress.",
+      "icon": "chest_05",
+      "ability_type": "passive",
+      "properties": {},
+      "cooldown": 240
+    },
+    "obtain_method": "Drops from the 7-Day Login Event and the Common Courier Treasure Pool",
+    "icon": "dudu-bird.png",
+    "description": "Courier",
+    "model": "models/items/courier/flightless_dod/flightless_dod.vmdl"
+  },
+  {
+    "id": "shagbark-the-plush",
+    "internal_id": "600401",
+    "name": "Shagbark the Plush",
+    "rarity": 4,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 1,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "buff_id": "privilege_150",
+        "effect": {
+          "name": "Defeated Creep Boss drops a Tier 4 Chest (stacks).",
+          "type": "PRIVILEGE_SCRIPT",
+          "is_stackable": false,
+          "properties": {}
+        }
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "service_rarity_lucky",
+            "value": 50,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "CHRISTMAS TREE",
+      "description": "Plants a unique tree in the player’s Proving Ground. The tree generates resources every 60 seconds and updates every 4 rounds.",
+      "icon": "treant_eyes_in_the_forest",
+      "ability_type": "passive",
+      "properties": {
+        "interval": 60,
+        "round": 4,
+        "all_min": "100 200 300 400 500 600",
+        "all_max": "100 200 300 400 500 600",
+        "gold_min": "100 200 300 400 500 600",
+        "gold_max": "100 200 300 400 500 600",
+        "score_min": "100 200 300 400 500 600",
+        "score_max": "100 200 300 400 500 600",
+        "crystal_min": "100 200 300 400 500 600",
+        "crystal_max": "100 200 300 400 500 600"
+      }
+    },
+    "obtain_method": "Drops from the Common Courier Treasure Pool",
+    "icon": "shagbark-the-plush.png",
+    "description": "Courier",
+    "model": "models/items/courier/shagbark/shagbark.vmdl"
+  },
+  {
+    "id": "huntling",
+    "internal_id": "600402",
+    "name": "Huntling",
+    "rarity": 4,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 1,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "buff_id": "privilege_151",
+        "effect": {
+          "name": "Earn Gold equal to Current Level × 300 per minute.",
+          "type": "PRIVILEGE_SCRIPT",
+          "is_stackable": false,
+          "properties": {
+            "gold": 300
+          }
+        }
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "service_rarity_lucky",
+            "value": 50,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "GREED",
+      "description": "Instantly gain 5% of current Gold, up to a maximum of 100000%.",
+      "icon": "alchemist_goblins_greed",
+      "ability_type": "no_target",
+      "properties": {
+        "gold_pct": 5,
+        "max_gold": 100000
+      },
+      "cooldown": 120
+    },
+    "obtain_method": "Drops from the Common Courier Treasure Pool",
+    "icon": "huntling.png",
+    "description": "Courier",
+    "model": "models/courier/huntling/huntling_flying.vmdl"
+  },
+  {
+    "id": "redhorn",
+    "internal_id": "600403",
+    "name": "Redhorn",
+    "rarity": 4,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 1,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "kill_all_attribute",
+            "value": 1,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "service_rarity_lucky",
+            "value": 50,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "FURIOUS SHEEP",
+      "description": "Grants the hero a Critical Strike Aura, increasing the Critical Strike Chance of all allies within 900 radius by 30% for 20 seconds.",
+      "icon": "shadow_shaman_voodoo_alt",
+      "ability_type": "no_target",
+      "properties": {
+        "crit_chance": 30,
+        "radius": 900,
+        "duration": 20
+      },
+      "cooldown": 120
+    },
+    "obtain_method": "Drops from the Common Courier Treasure Pool",
+    "icon": "redhorn.png",
+    "description": "Courier",
+    "model": "models/courier/ram/ram_flying.vmdl"
+  },
+  {
+    "id": "venoling",
+    "internal_id": "600404",
+    "name": "Venoling",
+    "rarity": 4,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 1,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "buff_id": "privilege_152",
+        "effect": {
+          "name": "Receive a Reliquary Key on Round 10.",
+          "type": "PRIVILEGE_ITEM",
+          "is_stackable": false,
+          "properties": {
+            "item_devour": 1,
+            "round": 10
+          }
+        }
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "service_rarity_lucky",
+            "value": 50,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "GUARDIAN ANGEL",
+      "description": "Grants  to all allies for 6s.",
+      "icon": "omniknight_guardian_angel",
+      "ability_type": "no_target",
+      "properties": {
+        "duration": 6
+      },
+      "cooldown": 100
+    },
+    "obtain_method": "Drops from the Common Courier Treasure Pool",
+    "icon": "venoling.png",
+    "description": "Courier",
+    "model": "models/courier/venoling/venoling_flying.vmdl"
+  },
+  {
+    "id": "captain-bamboo",
+    "internal_id": "600405",
+    "name": "Captain Bamboo",
+    "rarity": 4,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 1,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "buff_id": "privilege_courier_600405",
+        "effect": {
+          "name": "Start the battle with 1 <panel class='NotificationItem' />{s:itemname}<br>The Bear Spirit’s attributes are increased by {s:attribute_pct}%.",
+          "type": "PRIVILEGE_SCRIPT",
+          "is_stackable": false,
+          "properties": {
+            "itemname": "item_spirit_bear_a",
+            "round": 1,
+            "attribute_pct": 100
+          }
+        }
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "service_rarity_lucky",
+            "value": 50,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "BEAST PROTECTION",
+      "description": "When an allied summoned unit with health dies, it deals damage to enemies within a 900 radius equal to the summon’s max HP * 40, and randomly collects a penalty of up to 10000 gold.",
+      "icon": "enchantress_little_friends",
+      "ability_type": "passive",
+      "properties": {
+        "radius": 900,
+        "health_damage": 40,
+        "gold": 10000
+      },
+      "cooldown": 20
+    },
+    "obtain_method": "Starstone Store Redemption",
+    "icon": "captain-bamboo.png",
+    "description": "Courier",
+    "model": "models/items/courier/captain_bamboo/captain_bamboo.vmdl"
+  },
+  {
+    "id": "butch",
+    "internal_id": "600406",
+    "name": "Butch",
+    "rarity": 4,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 1,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "service_afk_exp_bonus",
+            "value": 10,
+            "type": "flat"
+          }
+        ],
+        "buff_id": "privilege_courier_600406",
+        "effect": {
+          "name": "The Proving Grounds have a {s:chance}% chance to spawn an Experience Training Dummy every minute.",
+          "type": "PRIVILEGE_SCRIPT",
+          "is_stackable": false,
+          "properties": {
+            "chance": 12,
+            "exp_per_round": 5000
+          }
+        }
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "service_rarity_lucky",
+            "value": 50,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "SHARED GROWTH",
+      "description": "On leveling up, shares 0.01-1 of a random attribute with all allied heroes permanently.",
+      "icon": "wisp/wisp_tether_alt",
+      "ability_type": "passive",
+      "properties": {
+        "min": 0.01,
+        "max": 1
+      }
+    },
+    "obtain_method": "Active Mall Redemption",
+    "icon": "butch.png",
+    "description": "Courier",
+    "model": "models/items/courier/butch_pudge_dog/butch_pudge_dog.vmdl"
+  },
+  {
+    "id": "flopjaw-the-boxhound",
+    "internal_id": "600407",
+    "name": "Flopjaw the Boxhound",
+    "rarity": 4,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 1,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "kill_all_attribute",
+            "value": 2,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "service_rarity_lucky",
+            "value": 50,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "SURPRISE TREASURE",
+      "description": "Gain a random Tier 5 equipment or ability every 220 / 200 / 180 / 160 / 140 / 120 seconds.",
+      "icon": "chest_03",
+      "ability_type": "passive",
+      "properties": {
+        "interval": "220 200 180 160 140 120"
+      }
+    },
+    "obtain_method": "Active Mall Redemption",
+    "icon": "flopjaw-the-boxhound.png",
+    "description": "Courier",
+    "model": "models/courier/flopjaw/flopjaw_flying.vmdl"
+  },
+  {
+    "id": "staglift",
+    "internal_id": "600408",
+    "name": "Staglift",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "kill_all_attribute",
+            "value": 2,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "SLOT MACHINE",
+      "description": "Spend 50% of your current Gold, Glory, and Gem. There is a chance to lose it all or to double it.",
+      "icon": "chaos_knight_phantasm",
+      "ability_type": "no_target",
+      "properties": {
+        "chance": "70 60 50 40 30 10",
+        "chance_2": "30 40 50 50 50 60",
+        "chance_3": "0 0 0 10 20 30",
+        "cost": 50
+      },
+      "cooldown": 150
+    },
+    "obtain_method": "Obtained through Common Courier Pool",
+    "icon": "staglift.png",
+    "description": "Courier",
+    "model": "models/courier/mech_donkey/mech_donkey_flying.vmdl"
+  },
+  {
+    "id": "filmtail",
+    "internal_id": "600409",
+    "name": "Filmtail",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "kill_all_attribute",
+            "value": 2,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "MIRROR",
+      "description": "Duplicate a specified equipment. Cooldown: Item Rarity × 80 / 70 / 60 / 50 / 40 / 30 seconds.",
+      "icon": "ringmaster_spotlight",
+      "ability_type": "point",
+      "properties": {
+        "cd": "80 70 60 50 40 30"
+      }
+    },
+    "obtain_method": "Obtained through Common Courier Pool",
+    "icon": "filmtail.png",
+    "description": "Courier",
+    "model": "models/courier/f2p_courier/f2p_courier_flying.vmdl"
+  },
+  {
+    "id": "baekho",
+    "internal_id": "600410",
+    "name": "Baekho",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "kill_all_attribute",
+            "value": 2,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "POLYHEDRAL DICE",
+      "description": "Instantly perform 50 draws from the Caerus Advanced Pool.",
+      "icon": "tinker_defense_matrix",
+      "ability_type": "no_target",
+      "properties": {
+        "count": 50
+      },
+      "cooldown": 120
+    },
+    "obtain_method": "Obtained through Common Courier Pool",
+    "icon": "baekho.png",
+    "description": "Courier",
+    "model": "models/items/courier/baekho/baekho_flying.vmdl"
+  },
+  {
+    "id": "pouches",
+    "internal_id": "600411",
+    "name": "Pouches",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "kill_all_attribute",
+            "value": 2,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "HOARDER",
+      "description": "Gain 5 / 10 / 15 / 20 / 25 / 30% of your current Gold every 60 seconds. This amount is unaffected by any bonuses.",
+      "icon": "talent_5",
+      "ability_type": "passive",
+      "properties": {
+        "interval": 60,
+        "percent": "5 10 15 20 25 30"
+      }
+    },
+    "obtain_method": "Obtained through Common Courier Pool",
+    "icon": "pouches.png",
+    "description": "Courier",
+    "model": "models/items/courier/hamster_courier/hamster_courier_lv3_flying.vmdl"
+  },
+  {
+    "id": "shroomy",
+    "internal_id": "600412",
+    "name": "Shroomy",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "kill_all_attribute",
+            "value": 2,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "WONDER MUSHROOM",
+      "description": "Reduces cooldowns for all players by 3 / 6 / 9 / 12 / 15 / 18%%. If multiple players have this effect, the highest value applies.",
+      "icon": "bristleback/bb_2022_immortal_ability_icon/bb_2022_immortal_warpath",
+      "ability_type": "passive",
+      "properties": {
+        "bonus": "3 6 9 12 15 18"
+      }
+    },
+    "obtain_method": "Obtained through Common Courier Pool",
+    "icon": "shroomy.png",
+    "description": "Courier",
+    "model": "models/items/courier/shroomy/shroomy_flying.vmdl"
+  },
+  {
+    "id": "hexgill-the-lane-shark",
+    "internal_id": "600413",
+    "name": "Hexgill the Lane Shark",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "kill_all_attribute",
+            "value": 2,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "SHARK FIEND",
+      "description": "Reduces critical chance for all players by 5 / 10 / 15 / 20 / 25 / 30%%. If multiple players have this effect, the highest value applies.",
+      "icon": "crystal_maiden_frostbite_persona",
+      "ability_type": "passive",
+      "properties": {
+        "bonus": "5 10 15 20 25 30"
+      }
+    },
+    "obtain_method": "Obtained through Common Courier Pool",
+    "icon": "hexgill-the-lane-shark.png",
+    "description": "Courier",
+    "model": "models/items/courier/baby_bruce_the_jaw/baby_bruce_the_jaw_flying.vmdl"
+  },
+  {
+    "id": "spooly",
+    "internal_id": "600414",
+    "name": "Spooly",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "kill_all_attribute",
+            "value": 2,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "DARK DISPEL",
+      "description": "Increase your damage to Star Tomb creeps by 25 / 30 / 35 / 40 / 45 / 50%%.",
+      "icon": "undying/undying_fall20_immortal_ability_icon/undying_fall20_immortal_tombstone",
+      "ability_type": "passive",
+      "properties": {
+        "bonus": "25 30 35 40 45 50"
+      }
+    },
+    "obtain_method": "Obtained through Common Courier Pool",
+    "icon": "spooly.png",
+    "description": "Courier",
+    "model": "models/items/courier/courier_fall20/courier_fall20_flying.vmdl"
+  },
+  {
+    "id": "tinkbot",
+    "internal_id": "600415",
+    "name": "Tinkbot",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "kill_all_attribute",
+            "value": 2,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "HEALER",
+      "description": "When taking lethal damage, ignore it and become invincible for 3 sec.",
+      "icon": "dazzle/immortal/dazzle_shallow_grave",
+      "ability_type": "passive",
+      "properties": {
+        "duration": 3
+      },
+      "cooldown": 60
+    },
+    "obtain_method": "Obtained through Common Courier Pool",
+    "icon": "tinkbot.png",
+    "description": "Courier",
+    "model": "models/items/courier/tinkbot/tinkbot_flying.vmdl"
+  },
+  {
+    "id": "trusty-mountain-yak",
+    "internal_id": "600416",
+    "name": "Trusty Mountain Yak",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "kill_all_attribute",
+            "value": 2,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "NOBLE BLOODLINE",
+      "description": "Athena’s max HP is increased by 30 / 50 / 100 / 150 / 200 / 300. If multiple players have this effect, only the highest value applies.",
+      "icon": "juggernaut/bladekeeper/juggernaut_healing_ward",
+      "ability_type": "passive",
+      "properties": {
+        "hp": "30 50 100 150 200 300"
+      }
+    },
+    "obtain_method": "Obtained through Common Courier Pool",
+    "icon": "trusty-mountain-yak.png",
+    "description": "Courier",
+    "model": "models/courier/yak/yak_wings.vmdl"
+  },
+  {
+    "id": "promo-bluepaw",
+    "internal_id": "600417",
+    "name": "Promo Bluepaw",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "kill_all_attribute",
+            "value": 2,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "DEVOTION",
+      "description": "Every 60 seconds, deduct 20% of your Gold, Glory, and Gem, and grant 100 / 105 / 110 / 115 / 120 / 125% of the deducted resources to the player with the highest battle power.",
+      "icon": "action_move_pickup",
+      "ability_type": "passive",
+      "properties": {
+        "interval": 60,
+        "cost": 20,
+        "give": "100 105 110 115 120 125"
+      }
+    },
+    "obtain_method": "Obtained through Common Courier Pool",
+    "icon": "promo-bluepaw.png",
+    "description": "Courier",
+    "model": "models/items/courier/snaggletooth_red_panda/snaggletooth_red_panda_flying.vmdl"
+  },
+  {
+    "id": "ruddy-and-rannoff",
+    "internal_id": "600418",
+    "name": "Ruddy and Rannoff",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "summoned_damage",
+            "value": 40,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Ruddy and Rannoff",
+      "description": "Deals 25 / 30 / 35 / 40 / 45 / 50%% increased damage to Gold Creeps.",
+      "icon": "ability_capture",
+      "ability_type": "passive",
+      "properties": {
+        "damage_pct": "25 30 35 40 45 50"
+      }
+    },
+    "obtain_method": "Obtained from Skin Lucky Draw",
+    "icon": "ruddy-and-rannoff.png",
+    "description": "Courier",
+    "model": "models/courier/sw_donkey_frostivus2024/sw_donkey_flying_frostivus2024.vmdl"
+  },
+  {
+    "id": "zombie-hopper",
+    "internal_id": "600451",
+    "name": "Zombie Hopper",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 1,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "buff_id": "privilege_147",
+        "effect": {
+          "name": "Creeps from Basic Treasure Maps have a small chance (1%) to drop an Intermediate Treasure Map",
+          "type": "PRIVILEGE_SCRIPT",
+          "is_stackable": false,
+          "properties": {
+            "chance": 1
+          }
+        }
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "service_rarity_lucky",
+            "value": 50,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "TREASURE HUNT",
+      "description": "Dig Intermediate Treasure Map once.",
+      "icon": "courier_600451",
+      "ability_type": "passive",
+      "properties": {},
+      "cooldown": 120
+    },
+    "obtain_method": "Bonus Event",
+    "icon": "zombie-hopper.png",
+    "description": "Courier",
+    "model": "models/items/courier/pw_zombie/pw_zombie.vmdl"
+  },
+  {
+    "id": "devourling",
+    "internal_id": "600452",
+    "name": "Devourling",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 1,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "buff_id": "privilege_148",
+        "effect": {
+          "name": "+50% EXP from Gold Creep",
+          "type": "PRIVILEGE_MODIFIER",
+          "is_stackable": false,
+          "properties": {
+            "value": 50
+          }
+        }
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "service_rarity_lucky",
+            "value": 50,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "STUDY HARD",
+      "description": "Every set interval, instantly level up all players by 1 (unique effect). After players reach max hero level, every 4385700 EXP gained immediately grants permanent 0.1% all-attributes bonus.\n\nCurrent Overflow EXP: 0\nCurrent All-Attributes Bonuses Gained: 0",
+      "icon": "courier_600452",
+      "ability_type": "passive",
+      "properties": {
+        "value": 0.1,
+        "exp": 4385700,
+        "current_exp": "0",
+        "current_count": "0"
+      },
+      "cooldown": 60
+    },
+    "obtain_method": "Obtained through S1 Pass or Stastone Shop",
+    "icon": "devourling.png",
+    "description": "Courier",
+    "model": "models/items/courier/devourling/devourling_flying.vmdl"
+  },
+  {
+    "id": "sappler-the-eager",
+    "internal_id": "600453",
+    "name": "Sappler the Eager",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 1,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "buff_id": "privilege_team_health_pct",
+        "effect": {
+          "name": "+{s:teamhero_health_pct}% team HP (unique)",
+          "type": "PRIVILEGE_ATTRIBUTE",
+          "is_stackable": false,
+          "properties": {
+            "teamhero_health_pct": 10
+          }
+        }
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "service_rarity_lucky",
+            "value": 50,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "VITAL GUARD",
+      "description": "Allied heroes gain 10% bonus armor. For every 500 armor they have, their damage increases by 0.5% (x), up to a max of 7 / 8 / 9 / 10 / 11 / 12%.",
+      "icon": "treant_living_armor",
+      "ability_type": "passive",
+      "properties": {
+        "armor_pct": 10,
+        "armor": 500,
+        "damage_pct": 0.5,
+        "max_damage_pct": "7 8 9 10 11 12"
+      }
+    },
+    "obtain_method": "Obtained through S2 Pass or Stastone Shop",
+    "icon": "sappler-the-eager.png",
+    "description": "Courier",
+    "model": "models/items/courier/little_sappling_style1/little_sappling_style1.vmdl"
+  },
+  {
+    "id": "serac-the-seal",
+    "internal_id": "600454",
+    "name": "Serac the Seal",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 1,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "draw_crit_chance",
+            "value": 10,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "service_rarity_lucky",
+            "value": 50,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "LEOPARD",
+      "description": "Grants all allies bonus Attack Damage and Spell Amplification based on total Gold spent, up to 5 / 10 / 15 / 20 / 25 / 30% at 10000000 Gold.",
+      "icon": "tusk/glaciomarine_ability_icons/tusk_walrus_kick",
+      "ability_type": "passive",
+      "properties": {
+        "gold": 10000000,
+        "damage_pct": "5 10 15 20 25 30"
+      }
+    },
+    "obtain_method": "Obtained through S3 Pass or Stastone Shop",
+    "icon": "serac-the-seal.png",
+    "description": "Courier",
+    "model": "models/items/courier/frostivus2018_courier_serac_the_seal/frostivus2018_courier_serac_the_seal.vmdl"
+  },
+  {
+    "id": "chirpy",
+    "internal_id": "600455",
+    "name": "Chirpy",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 1,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "teamhero_armor_pct",
+            "value": 10,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "service_rarity_lucky",
+            "value": 50,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "SMOOCH",
+      "description": "When crafting Equipment, there‘s a 4 / 6 / 8 / 10 / 12 / 14% chance to upgrade by 1 extra level, up to a maximum of level 6.",
+      "icon": "bane/bane_fall20_immortal_ability_icon/bane_fall20_immortal_fiends_grip",
+      "ability_type": "passive",
+      "properties": {
+        "chance": "4 6 8 10 12 14"
+      }
+    },
+    "obtain_method": "Obtained through S4 Pass or Stastone Shop",
+    "icon": "chirpy.png",
+    "description": "Courier",
+    "model": "models/items/courier/bts_chirpy/bts_chirpy.vmdl"
+  },
+  {
+    "id": "krane-the-enlightened",
+    "internal_id": "600456",
+    "name": "Krane the Enlightened",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 1,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "damage_reduce",
+            "value": 15,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "service_rarity_lucky",
+            "value": 50,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "MYSTIC FORCE",
+      "description": "Damage increases by 0.1 / 0.3 / 0.5 / 0.7 / 0.9 / 1.1% every 30s, up to 20%.",
+      "icon": "arc_warden_scepter",
+      "ability_type": "passive",
+      "properties": {
+        "damage_pct": "0.1 0.3 0.5 0.7 0.9 1.1",
+        "max_pct": 20,
+        "interval": 30
+      }
+    },
+    "obtain_method": "Obtained through S5 Pass or Stastone Shop",
+    "icon": "krane-the-enlightened.png",
+    "description": "Courier",
+    "model": "models/items/courier/xianhe_stork/xianhe_stork.vmdl"
+  },
+  {
+    "id": "turbo-snail",
+    "internal_id": "600457",
+    "name": "Turbo Snail",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 1,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "buff_id": "privilege_148",
+        "effect": {
+          "name": "+50% EXP from Gold Creep",
+          "type": "PRIVILEGE_MODIFIER",
+          "is_stackable": false,
+          "properties": {
+            "value": 50
+          }
+        }
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "service_rarity_lucky",
+            "value": 50,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Unknown",
+      "description": "",
+      "properties": {}
+    },
+    "obtain_method": "Obtained through S6 Pass or Stastone Shop",
+    "icon": "turbo-snail.png",
+    "unreleased": true,
+    "description": "Courier",
+    "model": "models/items/courier/snail/courier_snail.vmdl"
+  },
+  {
+    "id": "ramnaught-of-underwool",
+    "internal_id": "600458",
+    "name": "Ramnaught of Underwool",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 1,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "buff_id": "privilege_148",
+        "effect": {
+          "name": "+50% EXP from Gold Creep",
+          "type": "PRIVILEGE_MODIFIER",
+          "is_stackable": false,
+          "properties": {
+            "value": 50
+          }
+        }
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "service_rarity_lucky",
+            "value": 50,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Unknown",
+      "description": "",
+      "properties": {}
+    },
+    "obtain_method": "Obtained through S7 Pass or Stastone Shop",
+    "unreleased": true,
+    "description": "Courier",
+    "model": "models/courier/defense3_sheep/defense3_sheep.vmdl"
+  },
+  {
+    "id": "wyvern-hatchling",
+    "internal_id": "600459",
+    "name": "Wyvern Hatchling",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 1,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "buff_id": "privilege_148",
+        "effect": {
+          "name": "+50% EXP from Gold Creep",
+          "type": "PRIVILEGE_MODIFIER",
+          "is_stackable": false,
+          "properties": {
+            "value": 50
+          }
+        }
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "service_rarity_lucky",
+            "value": 50,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Unknown",
+      "description": "",
+      "properties": {}
+    },
+    "obtain_method": "Obtained through S8 Pass or Stastone Shop",
+    "unreleased": true,
+    "description": "Courier",
+    "model": "models/courier/baby_winter_wyvern/baby_winter_wyvern.vmdl"
+  },
+  {
+    "id": "inky-the-hexapus",
+    "internal_id": "600460",
+    "name": "Inky the Hexapus",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 1,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "buff_id": "privilege_148",
+        "effect": {
+          "name": "+50% EXP from Gold Creep",
+          "type": "PRIVILEGE_MODIFIER",
+          "is_stackable": false,
+          "properties": {
+            "value": 50
+          }
+        }
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 3,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "service_rarity_lucky",
+            "value": 50,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Unknown",
+      "description": "",
+      "properties": {}
+    },
+    "obtain_method": "Obtained through S9 Pass or Stastone Shop",
+    "unreleased": true,
+    "description": "Courier",
+    "model": "models/items/courier/g1_courier/g1_courier.vmdl"
+  },
+  {
+    "id": "jin-and-yin-fox-spirits",
+    "internal_id": "600501",
+    "name": "Jin and Yin Fox Spirits",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "buff_id": "privilege_115",
+        "effect": {
+          "name": "+1 Proving Ground Creep",
+          "type": "PRIVILEGE_ATTRIBUTE",
+          "is_stackable": true,
+          "properties": {
+            "gold_monster": 1
+          }
+        }
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "DIVINE REFORGE",
+      "description": "Transforms a target equipment or Ability Book into another item of the same rarity, with a chance to upgrade its rarity. Cooldown: Item Rarity × 45 seconds.",
+      "icon": "antimage/golden_basher_blades/antimage_mana_void",
+      "ability_type": "point",
+      "properties": {
+        "chance": "50 40 30 12 5"
+      },
+      "cooldown": 45,
+      "cooldown_formula": "item_rarity * cooldown"
+    },
+    "obtain_method": "Drops from the Common Courier Treasure Pool",
+    "icon": "jin-and-yin-fox-spirits.png",
+    "description": "Courier",
+    "model": "models/items/courier/jin_yin_white_fox/jin_yin_white_fox_flying.vmdl"
+  },
+  {
+    "id": "golden-beetle",
+    "internal_id": "600502",
+    "name": "Golden Beetle",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "buff_id": "privilege_115",
+        "effect": {
+          "name": "+1 Proving Ground Creep",
+          "type": "PRIVILEGE_ATTRIBUTE",
+          "is_stackable": true,
+          "properties": {
+            "gold_monster": 1
+          }
+        }
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "LEAP",
+      "description": "Replaces a target equipment or Ability Book with a higher-rarity item of the same type. Cooldown: Item Rarity × 90 seconds.",
+      "icon": "rattletrap_battery_assault",
+      "ability_type": "point",
+      "properties": {},
+      "cooldown": 90,
+      "cooldown_formula": "item_rarity * cooldown"
+    },
+    "obtain_method": "Drops from the Time-limited Courier Treasure Pool",
+    "icon": "golden-beetle.png",
+    "description": "Courier",
+    "model": "models/items/courier/courier_ti9/courier_ti9_lvl7/courier_ti9_lvl7_flying.vmdl"
+  },
+  {
+    "id": "seekling",
+    "internal_id": "600503",
+    "name": "Seekling",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "buff_id": "privilege_115",
+        "effect": {
+          "name": "+1 Proving Ground Creep",
+          "type": "PRIVILEGE_ATTRIBUTE",
+          "is_stackable": true,
+          "properties": {
+            "gold_monster": 1
+          }
+        }
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "BLOODTHIRST",
+      "description": "+200 Attack Speed, -0.05 Attack Interval for all players’ heroes (8 sec).",
+      "icon": "ogre_magi_bloodlust",
+      "ability_type": "no_target",
+      "properties": {
+        "attackspeed": 200,
+        "attack_rate": 0.05,
+        "duration": 8
+      },
+      "cooldown": 120
+    },
+    "obtain_method": "Drops from the Common Courier Treasure Pool",
+    "icon": "seekling.png",
+    "description": "Courier",
+    "model": "models/courier/seekling/seekling_flying.vmdl"
+  },
+  {
+    "id": "lava-baby-roshan",
+    "internal_id": "600504",
+    "name": "Lava Baby Roshan",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "devour_equip_count",
+            "value": 1,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "LAVA",
+      "description": "All damage has a 10 chance to trigger the  effect. Damage dealt to creeps under the  effect is increased by 15.",
+      "icon": "doom_bringer_scorched_earth",
+      "ability_type": "passive",
+      "properties": {
+        "chance": 10,
+        "damage_pct": 15
+      }
+    },
+    "obtain_method": "Drops from the Time-limited Courier Treasure Pool",
+    "icon": "lava-baby-roshan.png",
+    "description": "Courier",
+    "model": "models/courier/baby_rosh/babyroshan_elemental_flying.vmdl"
+  },
+  {
+    "id": "vaal-the-animated-construct",
+    "internal_id": "600505",
+    "name": "Vaal the Animated Construct",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "devour_equip_count",
+            "value": 1,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "FREEDOM OF STONE",
+      "description": "Summoned units have 100% chance to apply 1 / 2 / 3 / 4 / 5 / 6%  when dealing damage. Cooldown: 0.1.",
+      "icon": "tiny/ti9_immortal/tiny_avalanche_immortal",
+      "ability_type": "passive",
+      "properties": {
+        "frail": "1 2 3 4 5 6",
+        "chance": 100
+      },
+      "cooldown": 0.1,
+      "cooldown_formula": "item_rarity * cooldown"
+    },
+    "obtain_method": "Drops from the Time-limited Courier Treasure Pool",
+    "icon": "vaal-the-animated-construct.png",
+    "description": "Courier",
+    "model": "models/items/courier/vaal_the_animated_constructradiant/vaal_the_animated_constructradiant.vmdl"
+  },
+  {
+    "id": "clever-aghanim",
+    "internal_id": "600506",
+    "name": "Clever Aghanim",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "devour_equip_count",
+            "value": 1,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Unknown",
+      "description": "",
+      "properties": {}
+    },
+    "obtain_method": "Drops from the Time-limited Courier Treasure Pool",
+    "icon": "clever-aghanim.png",
+    "unreleased": true,
+    "description": "Courier",
+    "model": "models/courier/aghanim_courier/aghanim_courier.vmdl"
+  },
+  {
+    "id": "succubus",
+    "internal_id": "600507",
+    "name": "Succubus",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "equipment_combine_crit",
+            "value": 8,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "SOUL COVENANT",
+      "description": "Increases damage dealt by 8 / 10 / 12 / 14 / 16 / 18%% and reduces damage taken by 8 / 10 / 12 / 14 / 16 / 18%%. On activation, shares this effect with one other allied hero. If both heroes remain within 900 range, each gains the full bonus.",
+      "icon": "marci_bodyguard",
+      "ability_type": "unit_target",
+      "properties": {
+        "outgoing": "8 10 12 14 16 18",
+        "incoming": "8 10 12 14 16 18",
+        "radius": 900
+      }
+    },
+    "obtain_method": "Drops from the Stellar Treasure event or can be redeemed in the Stellar Shop for Stellar Crystals.",
+    "icon": "succubus.png",
+    "description": "Stellar Courier",
+    "model": "models/eom/courier/meimoniang_1/meimoniang_1.vmdl"
+  },
+  {
+    "id": "doomling",
+    "internal_id": "600508",
+    "name": "Doomling",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "devour_equip_count",
+            "value": 1,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "MIGHT",
+      "description": "Each point of Strength grants an additional 0.1 / 0.12 / 0.14 / 0.16 / 0.18 / 0.2 Attack Damage and Spell Power. This effect is further increased as Health decreases, reaching a maximum additional increase of 100%% when Health is at or below 0%%.",
+      "icon": "sven/sven_ti10_immortal_ability_icon/sven_ti10_immortal_gods_strength",
+      "ability_type": "passive",
+      "properties": {
+        "extra_value": "0.1 0.12 0.14 0.16 0.18 0.2",
+        "max_percent": 100,
+        "health_pct": 0
+      }
+    },
+    "obtain_method": "Drops from the Time-limited Courier Treasure Pool",
+    "icon": "doomling.png",
+    "description": "Courier",
+    "model": "models/courier/doom_demihero_courier/doom_demihero_courier.vmdl"
+  },
+  {
+    "id": "shark-pirate",
+    "internal_id": "600509",
+    "name": "Shark Pirate",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "equipment_combine_crit",
+            "value": 8,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Unknown",
+      "description": "",
+      "properties": {}
+    },
+    "obtain_method": "Drops from the Stellar Treasure event or can be redeemed in the Stellar Shop for Stellar Crystals.",
+    "unreleased": true,
+    "description": "Stellar Courier",
+    "model": "models/eom/courier/xiaohaidao_1/xiaohaidao_1.vmdl"
+  },
+  {
+    "id": "flame-dancer",
+    "internal_id": "600510",
+    "name": "Flame Dancer",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "devour_equip_count",
+            "value": 1,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Unknown",
+      "description": "",
+      "properties": {}
+    },
+    "obtain_method": "Drops from the Stellar Treasure event or can be redeemed in the Stellar Shop for Stellar Crystals.",
+    "unreleased": true,
+    "description": "Stellar Courier",
+    "model": "models/eom/courier/fenghuangnv_1/fenghuangnv_1.vmdl"
+  },
+  {
+    "id": "ghost-knight",
+    "internal_id": "600511",
+    "name": "Ghost Knight",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "buff_id": "privilege_equip_fusion_extra_lock_chance",
+        "effect": {
+          "name": "+1 modifier lock on Relic fusion",
+          "type": "PRIVILEGE_SCRIPT",
+          "is_stackable": true,
+          "properties": {}
+        }
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ],
+        "buff_id": "privilege_162",
+        "effect": {
+          "name": "Lock a Relic during fusion to ensure the result matches its slot and set effect.",
+          "type": "PRIVILEGE_SCRIPT",
+          "is_stackable": false,
+          "properties": {}
+        }
+      }
+    ],
+    "ability": {
+      "name": "INFERNAL PACT",
+      "description": "HP, Attack Damage, and Spell Power increased by 6 / 8 / 10 / 12 / 14 / 16%. Each revival or every 100% Max HP lost increases this bonus by 100% for 12s. Can trigger again after 12s.",
+      "icon": "blue_dragonspawn_overseer_devotion_aura",
+      "ability_type": "passive",
+      "properties": {
+        "increase_pct": "6 8 10 12 14 16",
+        "bonus_pct": 100,
+        "loss_health_pct": 100,
+        "duration": 12
+      },
+      "cooldown": 12,
+      "cooldown_formula": "item_rarity * cooldown"
+    },
+    "obtain_method": "Drops from the Stellar Treasure event or can be redeemed in the Stellar Shop for Stellar Crystals.",
+    "icon": "ghost-knight.png",
+    "description": "Stellar Courier",
+    "model": "models/eom/courier/xiaoxiaoeling_1/xaoxiaoeling_1.vmdl"
+  },
+  {
+    "id": "cat-maiden",
+    "internal_id": "600512",
+    "name": "Cat Maiden",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "devour_equip_count",
+            "value": 1,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Unknown",
+      "description": "",
+      "properties": {}
+    },
+    "obtain_method": "Drops from the Stellar Treasure event or can be redeemed in the Stellar Shop for Stellar Crystals.",
+    "unreleased": true,
+    "description": "Stellar Courier",
+    "model": "models/eom/courier/hunshamaoniang_1/hunshamaoniang_1.vmdl"
+  },
+  {
+    "id": "tiny-orge-mage",
+    "internal_id": "600513",
+    "name": "Tiny Orge Mage",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "equipment_combine_crit",
+            "value": 8,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Unknown",
+      "description": "",
+      "properties": {}
+    },
+    "obtain_method": "Drops from the Stellar Treasure event or can be redeemed in the Stellar Shop for Stellar Crystals.",
+    "icon": "tiny-orge-mage.png",
+    "unreleased": true,
+    "description": "Stellar Courier",
+    "model": "models/eom/courier/xiaoxiaoshouren_1/xiaoxiaoshouren_1.vmdl"
+  },
+  {
+    "id": "ikun",
+    "internal_id": "600514",
+    "name": "iKun",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "devour_equip_count",
+            "value": 1,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "iKun",
+      "description": "Grants an additional 4 / 8 / 12 / 16 / 20 / 24 to all Attributes when no enemy units are within 300 range.",
+      "icon": "courier_shield",
+      "ability_type": "passive",
+      "properties": {
+        "all_stats_pct": "4 8 12 16 20 24",
+        "radius": 300
+      }
+    },
+    "obtain_method": "Drops from the Stellar Treasure event or can be redeemed in the Stellar Shop for Stellar Crystals.",
+    "icon": "ikun.png",
+    "description": "Stellar Courier",
+    "model": "models/eom/courier/jinitaimei_1/jinitaimei_1.vmdl"
+  },
+  {
+    "id": "surfer-girl",
+    "internal_id": "600515",
+    "name": "Surfer Girl",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "devour_equip_count",
+            "value": 1,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Unknown",
+      "description": "",
+      "properties": {}
+    },
+    "obtain_method": "Drops from the Stellar Treasure event or can be redeemed in the Stellar Shop for Stellar Crystals.",
+    "unreleased": true,
+    "description": "Starsea Courier",
+    "model": "models/eom/courier/courier_summer_1/courier_summer_1.vmdl"
+  },
+  {
+    "id": "cotton-prince",
+    "internal_id": "600516",
+    "name": "Cotton Prince",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "devour_equip_count",
+            "value": 1,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "SUGAR-COATED SHELL",
+      "description": "Attacks have a 7 / 9 / 11 / 13 / 15% to reduce the target's damage dealt by 10% for 5 seconds, stacking up to 7.",
+      "icon": "consumables/hero_candy_bucket",
+      "ability_type": "passive",
+      "properties": {
+        "chance": "7 9 11 13 15",
+        "weak_pct": 10,
+        "duration": 5,
+        "max_stack": 7
+      }
+    },
+    "obtain_method": "Drops from the Stellar Treasure event or can be redeemed in the Stellar Shop for Stellar Crystals.",
+    "icon": "cotton-prince.png",
+    "description": "Stellar Courier",
+    "model": "models/courier/winter2022/cotton_donkey_courier.vmdl"
+  },
+  {
+    "id": "redhoof",
+    "internal_id": "600517",
+    "name": "Redhoof",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "devour_equip_count",
+            "value": 1,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "RAID",
+      "description": "Dashing grants +1 / 2 / 3 / 4 / 5 / 6% Attack and Spell Power for 3 seconds. Stacks independently up to 5.",
+      "icon": "centaur/berserkers_edge/centaur_hoof_stomp",
+      "ability_type": "passive",
+      "properties": {
+        "duration": 3,
+        "damage_pct": "1 2 3 4 5 6",
+        "max_stack": 5
+      }
+    },
+    "obtain_method": "Drops from the Time-limited Courier Treasure Pool",
+    "icon": "redhoof.png",
+    "description": "Courier",
+    "model": "models/courier/godhorse/godhorse.vmdl"
+  },
+  {
+    "id": "azuremir",
+    "internal_id": "600518",
+    "name": "Azuremir",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "devour_equip_count",
+            "value": 1,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "AZURE FORCE",
+      "description": "Gain an additional 1 / 1.5 / 2 / 2.5 / 3 / 3.5% Strength for each Equipment consumed, up to of 10 / 15 / 20 / 25 / 30 / 35%.",
+      "icon": "axe_berserkers_call_shoutmask",
+      "ability_type": "passive",
+      "properties": {
+        "str_pct": "1 1.5 2 2.5 3 3.5",
+        "max_pct": "10 15 20 25 30 35"
+      }
+    },
+    "obtain_method": "Drops from the Time-limited Courier Treasure Pool",
+    "icon": "azuremir.png",
+    "description": "Courier",
+    "model": "models/items/courier/azuremircourierfinal/azuremircourierfinal.vmdl"
+  },
+  {
+    "id": "astral-leopard",
+    "internal_id": "600519",
+    "name": "Astral Leopard",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "buff_id": "privilege_164|privilege_165|privilege_166",
+        "effect": {
+          "name": "Gain ability items: AGI, STR, and INT Training Books",
+          "type": "PRIVILEGE_ITEM",
+          "is_stackable": true,
+          "properties": {
+            "item_tempering_str_b": 1,
+            "round": 1
+          }
+        }
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ],
+        "buff_id": "privilege_167",
+        "effect": {
+          "name": "The Faith Sanctuary reduces Faith Point activation requirements by {s:reduce}%, and increases Faith Point effects by {s:bonus}%. (Maximum Faith Points unchanged)",
+          "type": "PRIVILEGE_BASE",
+          "is_stackable": false,
+          "properties": {
+            "reduce": 50,
+            "bonus": 100
+          }
+        }
+      }
+    ],
+    "ability": {
+      "name": "Vulnerability",
+      "description": "Dealing any damage inflicts Vulnerability on the target, increasing all damage taken by 4 / 6 / 8 / 10 / 12 / 14% for 3 seconds. Vulnerability applied by different players stacks multiplicatively.",
+      "icon": "arc_warden/ti9_immortal_shoulders/arc_warden_spark_wraith_immortal",
+      "ability_type": "passive",
+      "properties": {
+        "damage_pct": "4 6 8 10 12 14",
+        "duration": 3
+      }
+    },
+    "obtain_method": "Drops from the Stellar Treasure event or can be redeemed in the Stellar Shop for Stellar Crystals.",
+    "icon": "astral-leopard.png",
+    "description": "Stellar Courier",
+    "model": "models/eom/courier/luna_1/luna_1.vmdl"
+  },
+  {
+    "id": "reindeer",
+    "internal_id": "600520",
+    "name": "Reindeer",
+    "rarity": 5,
+    "max_stars": 6,
+    "star_costs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "star_bonuses": [
+      {
+        "star": 1,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 2,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 2,
+        "stats": [
+          {
+            "stat": "devour_equip_count",
+            "value": 1,
+            "type": "flat"
+          }
+        ]
+      },
+      {
+        "star": 3,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 4,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 4,
+        "stats": [
+          {
+            "stat": "service_drop_lucky",
+            "value": 5,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 5,
+        "stats": [
+          {
+            "stat": "all_amplification",
+            "value": 6,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "star": 6,
+        "stats": [
+          {
+            "stat": "all_stats_amplification_2",
+            "value": 1,
+            "type": "percent"
+          },
+          {
+            "stat": "service_rarity_lucky",
+            "value": 60,
+            "type": "percent"
+          },
+          {
+            "stat": "final_damage",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Critical Strike",
+      "description": "Every 500 enemy units killed grants an additional 2 / 4 / 6 / 8 / 10 / 12% Critical Damage, up to 8 / 16 / 24 / 32 / 40 / 48%.",
+      "icon": "drow_ranger/immortal/drow_ranger_wave_of_silence",
+      "ability_type": "passive",
+      "properties": {
+        "crit_damage": "2 4 6 8 10 12",
+        "max_pct": "8 16 24 32 40 48",
+        "interval": 500
+      }
+    },
+    "obtain_method": "Drops from the Time-limited Courier Treasure Pool",
+    "icon": "reindeer.png",
+    "description": "Courier",
+    "model": "models/eom/courier/shengdanyyt_milu_1/shengdanyyt_milu_1.vmdl"
+  }
+]
