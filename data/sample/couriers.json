@@ -588,7 +588,7 @@
         "star": 2,
         "buff_id": "privilege_courier_600405",
         "effect": {
-          "name": "Start the battle with 1 <panel class='NotificationItem' />{s:itemname}<br>The Bear Spirit’s attributes are increased by {s:attribute_pct}%.",
+          "name": "Start with Spirit Bear",
           "type": "PRIVILEGE_SCRIPT",
           "is_stackable": false,
           "properties": {
